@@ -1,0 +1,36 @@
+configurando usuário:
+git config --global user.name "Nome do Fulano"
+
+configurando e-mail:
+git config --global user.email "jeffersongs@gmail.com"
+
+definindo o editor
+git config --global core.editor C:\Users\jefferson.gomes\Documents\TOTVS\notepad++\notepad++.exe
+
+para saber isso que tá configurado
+git config user.name
+git config --list mostra tudo
+
+criar diretorio
+mkdir nomedosubdiretorio
+
+entra no subdiretorio
+cd nomedosubdiretorio
+
+inicializar
+git init
+
+ls -la lista diretorios
+
+no cd .git/ só ls mostra HEAD, branches, config, descriptions, hooks, info, objects, refts
+
+---------------------------
+File Status Lifecycle
+untracked - não marcado, quando colocamos no diretorio mas ainda não colocamos no git (não tem versão ainda)
+unmodified - não foi modificado, está no git e não teve nenhuma modificação
+modified - modificado, quando vc edita e modifica algo
+staged - é uma area para criar uma versão, é como se fosse um repositorio para quando tudo que for mexido, criarmos uma versão nova
+
+------------------------------------
+git status - mostra como está o repositório
+git add nomedoarquivo.ext - adiciona o arquivo pra area staged
