@@ -34,3 +34,11 @@ staged - é uma area para criar uma versão, é como se fosse um repositorio para q
 ------------------------------------
 git status - mostra como está o repositório
 git add nomedoarquivo.ext - adiciona o arquivo pra area staged
+git commit -m "aqui mensagem sobre o commit ex: Add git.txt - Inclusão de arquivo"
+git log  - mostra informações sobre commits 
+git shortlog - mostra um log de informações mais curtas e objetivas
+git shortlog - sn   - mostra numero de commit e nome de quem fez
+git log --graph     - mostra de forma grafica os commits e status
+git show nomedahashQueApareceuNoLogGraph   com isso vc ve detalhes do commit feito
+fit diff - mostra a diferença entre o arquivo modificado e o que ele tem no repositório
+
