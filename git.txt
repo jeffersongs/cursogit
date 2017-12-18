@@ -40,5 +40,12 @@ git shortlog - mostra um log de informações mais curtas e objetivas
 git shortlog - sn   - mostra numero de commit e nome de quem fez
 git log --graph     - mostra de forma grafica os commits e status
 git show nomedahashQueApareceuNoLogGraph   com isso vc ve detalhes do commit feito
-fit diff - mostra a diferença entre o arquivo modificado e o que ele tem no repositório
+git diff - mostra a diferença entre o arquivo modificado e o que ele tem no repositório
+git diff --name-only - mostra somente os nomes dos arquivos modificados
+git checkout  - vc tira o arquivo da area stage
+git reset HEAD - remove arquivo da fila do stage ( --soft --mixed --hard )
+git remote add origin https://github.com/jeffersongs/cursogit.git - adiciona um repositorio local no github
+git remote -v - mostra detalhes do repositório remoto
+git push -u origin master - envia todos os arquivos locais para o origin remoto
+
 
